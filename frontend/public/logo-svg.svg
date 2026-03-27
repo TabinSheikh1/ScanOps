@@ -1,0 +1,17 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50 5L15 20V45C15 65 30 85 50 95C70 85 85 65 85 45V20L50 5Z" fill="#0F172A" stroke="#00FFFF" stroke-width="3"/>
+  
+  <circle cx="50" cy="50" r="30" stroke="#00FFFF" stroke-width="1" stroke-dasharray="2 2" opacity="0.5"/>
+  <circle cx="50" cy="50" r="20" stroke="#00FFFF" stroke-width="1" stroke-dasharray="2 2" opacity="0.3"/>
+  
+  <path d="M50 50L50 20C58.2843 20 65 26.7157 65 35" stroke="#00FFFF" stroke-width="2" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="3s" repeatCount="indefinite" />
+  </path>
+  
+  <circle cx="40" cy="40" r="2" fill="#FF4D4F">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="65" cy="55" r="2" fill="#52C41A">
+    <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+</svg>
